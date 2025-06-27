@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: pal865/rustdesk@master
+        uses: actions/checkout@v3
 
       - name: Update submodules
         run: |
